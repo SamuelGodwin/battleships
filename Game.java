@@ -23,7 +23,7 @@ public class Game {
 		do {
 			board.getFrequencies();
 			System.out.println(board.toString());	
-			System.out.println("Enter a single row and column number on a single line, separated by a space. Enter 'exit' to exit.");
+			System.out.println("Enter a single row and column number on a single line, separated by a space (e.g. '2 2'). Enter 'exit' to exit.");
 
 			userInput = in.next();
 			//	Initialised to arbitrary numbers
